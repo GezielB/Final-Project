@@ -1,0 +1,340 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Rubik&family=Rubik+Mono+One&display=swap');
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+v2.0 | 20110126
+License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+ 
+ /*++++WhiteSpace Styles */
+
+
+
+body{
+    background-image: url('https://i.pinimg.com/736x/41/ef/81/41ef811200055db318de73209198f55b.jpg'), linear-gradient(to bottom, #0a0a0a, #0a0a0a, #4a0000, #550000, #0a0a0a);
+	background-blend-mode: overlay;
+}
+
+#wrapper{
+	background-color: #550000;
+	width: 80%;
+	margin: 0 auto;
+}
+
+nav{
+	background-color: #6C6A6A;
+	margin: 0 auto;
+	padding: 0% 0%;
+}
+
+nav ul{
+	width: 80%;
+	margin: 0 auto;
+}
+
+#feature{
+	width: 80%;
+	margin: 3% auto 3% auto;
+	background-color: #250000;
+	overflow: hidden;
+	padding: 1.5% 2% 3% 2%;
+}
+
+.feature-pic{
+	float: left;
+	width: 40%;
+}
+
+.feature-text{
+	float: left;
+	width: 58%;
+	padding-left: 2%;
+}
+
+
+header, nav, footer{
+    background-image: url('https://cdn.pixabay.com/photo/2016/08/05/12/44/space-1572212_1280.png'), linear-gradient(to right, #8B0000, #A52A2A);
+    padding: 2%;
+	background-blend-mode: overlay;
+}
+
+header, footer{
+	background-color: #6C6A6A;
+	padding:2% 5%;
+	color: red;
+}
+
+p{
+	font-size: 1em;
+	color: #F3C9C9;
+	margin: 2% 0;
+}
+
+h2, h1{
+	margin: 2% 0;
+}
+
+#main-content{
+	width: 60%;
+	float: left;
+	margin: 2%;
+}
+
+#sidebar{
+	width: 32%;
+	float: left;
+	margin: 2%;
+}
+
+.main-figure{
+	width: 30%;
+	margin-left: 5%;
+	float: right;
+	font-size: 0.55em;
+}
+
+figure.slayer{
+	width: 50%;
+	margin-left: 5%;
+	margin-right: 4%;
+	margin-bottom: 2%;
+	float: left;
+	font-size: 0.55em;
+}
+
+figure.slayer2{
+	width: 50%;
+	margin-left: 5%;
+	margin-right: 4%;
+	margin-top: 2%;
+	float: right;
+	font-size: 0.55em;
+}
+
+.main-figur{
+	width: 45%;
+	margin-left: 22%;
+	font-size: 0.55em;
+	margin-top: 5%;
+}
+
+.side-figure{
+	width: 50%;
+	margin: 0 auto;
+	margin-bottom: 10%;
+	font-size: 0.55em;
+}
+
+.ending{
+	clear: left;
+	width: 80%;
+	margin: 0 auto;
+	border: 2px solid black;
+}
+
+.ending article h2{
+	width: 15%;
+	margin: 0 auto;
+	text-decoration: underline;
+	padding-top:2%;
+	padding-bottom: 2%;
+}
+
+.ending article p{
+	Width: 50%;
+	margin: 0 auto;
+	padding-bottom: 5%;
+}
+figure{
+	background-color: #250000;
+}
+
+figure p{
+	width: 80%;
+	margin: 0 auto;
+}
+
+figure img{
+	width: 100%;
+	background-image: url('https://64.media.tumblr.com/28c45a6dbd56c82480ad0f2a15447675/tumblr_prpqs2KWx61vgzd4so5_r1_540.gifv');
+}
+
+footer{
+	clear: left;
+	font-size: 12px;
+}
+
+/*++++++Type Styles++++++*/
+
+/*	
+	font-family: 'Montserrat', sans-serif;
+	font-family: 'Rubik', sans-serif;
+	font-family: 'Rubik Mono One', monospace;
+*/
+
+body{
+	font-size: 100%;
+	font-family: 'Montserrat', sans-serif;
+	line-height: 140%;
+}
+
+.Nav-item{
+	display: inline;
+	margin-left: 2%;
+}
+
+li.Nav-item a:link{
+	color: red;
+}
+
+li.Nav-item a:visited{
+	color: maroon;
+}
+
+li.Nav-item a:hover{
+	color: white;
+}
+
+li.Nav-item a:active{
+	color: blue;
+}
+
+li.Nav-item a,
+li.Nav-item a:link,
+li.Nav-item a:visited,
+li.Nav-item a:hover,
+li.Nav-item a:active{
+    font-weight: bold;
+}
+
+blockquote{
+	width: 40%;
+	font-size: 1.5em;
+	font-family: serif;
+	line-height: 1.15em;
+	margin: 2% 0 2% 15%;
+	background-color: #250000;
+	padding: 2%;
+	border-right: 10px solid black;
+	color: #eee;
+}
+
+blockquote:before{
+	vertical-align: -.35em;
+	line-height: 0;
+	font-size: 4em;
+	content: "\201c";
+}
+
+table caption{
+	font-size: .6em;
+}
+
+article>table>thead>tr{
+	text-decoration: underline;
+}
+
+.table-container{
+	width: 100%;
+	margin: 0 auto;
+}
+
+table{
+	background-color: #250000;
+	border: 1px solid black;
+	color: #F3C9C9;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+table th, table td {
+    padding: 2.5%;
+    margin: 0 auto;
+}
+
+.table-container th, .table-container td{
+    padding: 10px;
+    white-space: nowrap; 
+}
+
+article>ul{
+	list-style-type:circle;
+	color: #F3C9C9;
+}
+
+ol{
+	list-style-type: decimal;
+	color: #F3C9C9;
+}
+ol>ol{
+	list-style-type: square;
+	color: #F3C9C9;
+	padding-bottom: 2%;
+}
+
+li{
+	line-height: 150%;
+}
+h1{
+	font-size: 2em;
+	font-family: 'Rubik Mono One', monospace;
+}
+
+h2{
+	color: #F3C9C9;
+	font-size: 1.5em;
+	font-family: 'Rubik', sans-serif;
+}
+
+h3{
+	color: #F3C9C9;
+	text-decoration: underline;
+	padding-bottom: 1.1%;
+	padding-top: 1.7%;
+}
+
+
+
